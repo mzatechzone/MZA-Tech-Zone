@@ -1,0 +1,5 @@
+# Robots.txt for MZA Tech Zone
+User-agent: *
+Allow: /
+
+Sitemap: https://mzatechzone.pro/sitemap.xml

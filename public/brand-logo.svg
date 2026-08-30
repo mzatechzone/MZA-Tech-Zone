@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="mza-blue-grad" x1="15%" y1="10%" x2="85%" y2="95%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="35%" stop-color="#00b4d8" />
+      <stop offset="70%" stop-color="#0077b6" />
+      <stop offset="100%" stop-color="#023e8a" />
+    </linearGradient>
+    <filter id="mza-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00e5ff" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  
+  <g filter="url(#mza-glow)">
+    {/* Left dynamic stylized wing M */}
+    <path
+      d="M 38 42 C 45 42 62 43 85 45 C 76 56 68 64 61 73 C 58 77 56 81 60 84 C 64 87 70 82 76 74 C 84 63 94 48 102 46 C 114 47 132 48 148 49 C 130 72 110 98 94 120 C 88 128 85 137 92 143 C 98 148 107 142 114 133 C 134 107 158 76 177 49 C 196 50 220 51 245 52 C 215 102 182 156 150 208 C 142 221 133 234 125 248 C 122 253 115 254 112 249 C 108 243 111 234 116 226 C 138 189 162 148 184 110 L 165 110 C 148 136 128 166 109 194 C 101 206 93 218 84 213 C 76 208 80 194 86 183 C 102 156 122 124 140 94 L 122 93 C 108 114 92 138 78 158 C 72 167 65 174 58 169 C 51 164 54 153 60 144 C 74 122 89 98 103 76 L 85 75 C 73 91 60 109 49 123 C 44 130 38 134 32 129 C 26 124 28 114 34 105 C 44 89 57 70 68 53 C 60 55 52 56 44 57 C 35 58 32 50 34 46 C 35 43 37 42 38 42 Z"
+      fill="url(#mza-blue-grad)"
+      fill-rule="evenodd"
+    />
+    
+    {/* Geometric precision inverted triangle MZA stylized glyph */}
+    <path
+      d="M 36 44 L 250 48 L 140 252 C 136 260 126 260 122 252 Z"
+      stroke="url(#mza-blue-grad)"
+      stroke-width="1.5"
+      stroke-opacity="0.2"
+    />
+  </g>
+</svg>
